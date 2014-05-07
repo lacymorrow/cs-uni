@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ content.title }}</title>
+<meta charset="utf-8">
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static "home/style.css" %}" />
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<ul id="nav">
+			<li><a href="{% url 'home:index' %}"><a href="/">Home</a></li>
+			{% if user.is_authenticated %}
+			  <li><a href="{% url 'home:logout' %}"><a href="/logout">Log out {{user.username}}</a></li>
+			{% else %}
+			  <li><a href="{% url 'home:login' %}"><a href="/login">Log in</a></li>
+			{% endif %}
+		</ul>
+		<h1 id="logo">{{ content.title }}</h1>
+	</header>
+	<div id="main">
+		<h1>User Login</h1>
+		{% if form.errors %}
+			<p>Your username and password didn't match. Please try again.</p>
+		{% endif %}
+		<form method="post" action="." >
+		{% csrf_token %}
+			<p><label for="id_username">Username:</label>
+				{{ form.username }}</p>
+			<p><label for="id_password">Password:</label>
+				{{ form.password }}</p>
+			<input type="hidden" name="next" value="/">
+			<input type="submit" value="login">
+		</form>
+	</div>
+</body>
+</html>

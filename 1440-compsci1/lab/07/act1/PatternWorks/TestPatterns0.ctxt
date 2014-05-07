@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TestPatterns0()
+comment1.target=void\ tediousTenSquares()
+comment1.text=\nCreates\ a\ row\ of\ 10\ blue\ squares,\ each\ is\ 40x40\ pixels,\ repeated\ every\ 50\npixels\ on\ the\ x-axis.\ The\ top-left\ corner\ of\ the\ row\ is\ at\ (x,y)\ \=\n(100,100)\n\n
+comment2.params=first\ last
+comment2.target=void\ displayCounter(int,\ int)
+comment2.text=\n\nDisplays\ integers\ from\ 'first'\ to\ 'last'\ inclusive,\ one\ per\ line,\ on\ the\ndisplay\ console\ If\ first\ is\ greater\ than\ last,\ the\ routine\ exits\ with\ an\nerror\ message.\ This\ is\ an\ example\ of\ a\ while-loop.\n\n\n
+comment3.target=void\ tenSquaresWhileLoop()
+comment3.text=\nWrite\ a\ method\ that\ uses\ a\ while-loop\ for\ displaying\ 10\ red\ squares,\ each\n20x20\ pixels,\ repeated\ every\ 50\ pixels\ with\ top-left\ of\ first\ square\ at\n(100,\ 200)\n\n
+comment4.target=void\ tenSquaresForLoop()
+comment4.text=\nWrite\ the\ same\ as\ above\ using\ a\ for-loop\ only\ with\ green\ squares\ and\ the\ntop-left\ corner\ of\ first\ square\ at\ (100,250)\n\n
+comment5.params=squares\ xPos\ yPos\ size\ space\ color
+comment5.target=void\ rowOfSquares(int,\ int,\ int,\ int,\ int,\ String)
+comment5.text=\nWrite\ a\ method\ rowOfSquares,\ using\ a\ for-loop\ that\ takes\ parameters\nto\ specify\:\ number\ of\ squares,\ position\ of\ top-left\ corner\ of\ row\ \n(xPos,\ yPos),\ size\ of\ the\ square\ in\ pixels,\ spacing\ between\ squares\nin\ pixels,\ color\ of\ squares.\ You\ define\ the\ parameter\ list.\n\n
+numComments=6

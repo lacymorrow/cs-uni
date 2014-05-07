@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TestBankAccount()
+comment1.target=void\ testAllMethods()
+comment2.target=void\ testConstructorAndAccessors()
+comment3.target=void\ testDeposit()
+comment4.target=void\ testWithdraw()
+comment5.target=void\ testMutators()
+comment6.target=void\ testAddMonthlyInterest()
+comment7.target=void\ testGetBalanceString()
+comment8.target=void\ testGetAccountInformation()
+numComments=9

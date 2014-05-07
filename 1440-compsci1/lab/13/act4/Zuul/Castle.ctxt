@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Castle()
+comment0.text=\nCreate\ the\ game\ and\ initialise\ its\ internal\ map.\n\n
+comment1.target=void\ clearRooms()
+comment2.params=r
+comment2.target=void\ addRoom(Room)
+comment3.params=r
+comment3.target=void\ setCurrentRoom(Room)
+comment4.target=Room\ getCurrentRoom()
+comment5.target=void\ createRooms()
+comment5.text=\nCreate\ all\ the\ rooms\ and\ link\ their\ exits\ together.\n\n
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PerformanceFactory()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ PerformanceFactory\n\n
+comment1.target=Performance\ makePerformance()
+comment1.text=\nmakePerformance\ -\ creates\ a\ random\ Performance\ with\ between\ 4\ and\n10\ ratings\ each\n\n@param\ \ \ -\ no\ parameters\ \ \ \n@return\ \ -\ the\ random\ Performance\n\n
+comment2.target=double\ makeRating()
+comment2.text=\n\nmakeRating\ -\ creates\ a\ double\ value\ between\ 7.0\ and\ 10.0\nthat\ likely\ has\ one\ digit\ after\ the\ decimal\ point\n\n@param\ \ \ -\ no\ parameters\ \ \ \n@return\ \ -\ the\ random\ double\ that\ is\ chosen\n\n
+numComments=3

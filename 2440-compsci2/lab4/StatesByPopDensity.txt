@@ -1,0 +1,52 @@
+[District of Columbia]	Population: 	606900.0	Area:	68.0	   Population Density:	8925.0
+[New Jersey]	Population: 	7730188.0	Area:	8722.0	   Population Density:	886.29
+[Rhode Island]	Population: 	1003464.0	Area:	1545.0	   Population Density:	649.49
+[Connecticut]	Population: 	3287116.0	Area:	5544.0	   Population Density:	592.91
+[Massachusetts]	Population: 	6016425.0	Area:	10555.0	   Population Density:	570.01
+[Maryland]	Population: 	4781468.0	Area:	12407.0	   Population Density:	385.38
+[New York]	Population: 	1.7990455E7	Area:	54471.0	   Population Density:	330.28
+[Delaware]	Population: 	666168.0	Area:	2489.0	   Population Density:	267.64
+[Pennsylvania]	Population: 	1.1881643E7	Area:	46058.0	   Population Density:	257.97
+[Ohio]	Population: 	1.0847115E7	Area:	44828.0	   Population Density:	241.97
+[Illinois]	Population: 	1.1430602E7	Area:	57918.0	   Population Density:	197.36
+[Florida]	Population: 	1.2937926E7	Area:	65756.0	   Population Density:	196.76
+[California]	Population: 	2.9769021E7	Area:	163707.0	   Population Density:	181.84
+[Indiana]	Population: 	5544159.0	Area:	36420.0	   Population Density:	152.23
+[Virginia]	Population: 	6187358.0	Area:	42777.0	   Population Density:	144.64
+[North Carolina]	Population: 	6628637.0	Area:	53821.0	   Population Density:	123.16
+[New Hampshire]	Population: 	1109252.0	Area:	9351.0	   Population Density:	118.62
+[Tennessee]	Population: 	4877185.0	Area:	42146.0	   Population Density:	115.72
+[Georgia]	Population: 	6478216.0	Area:	59441.0	   Population Density:	108.99
+[South Carolina]	Population: 	3468703.0	Area:	32008.0	   Population Density:	108.37
+[Hawaii]	Population: 	1108229.0	Area:	10932.0	   Population Density:	101.37
+[Michigan]	Population: 	9295297.0	Area:	96705.0	   Population Density:	96.12
+[Kentucky]	Population: 	3685296.0	Area:	40411.0	   Population Density:	91.2
+[Louisiana]	Population: 	4219973.0	Area:	51843.0	   Population Density:	81.4
+[Alabama]	Population: 	4040587.0	Area:	52423.0	   Population Density:	77.08
+[Wisconsin]	Population: 	4891769.0	Area:	65499.0	   Population Density:	74.68
+[West Virginia]	Population: 	1793477.0	Area:	24231.0	   Population Density:	74.02
+[Missouri]	Population: 	5117073.0	Area:	69709.0	   Population Density:	73.41
+[Washington]	Population: 	4866692.0	Area:	71302.0	   Population Density:	68.25
+[United States]	Population: 	2.48691873E8	Area:	3787316.0	   Population Density:	65.66
+[Texas]	Population: 	1.698651E7	Area:	268601.0	   Population Density:	63.24
+[Vermont]	Population: 	562758.0	Area:	9615.0	   Population Density:	58.53
+[Mississippi]	Population: 	2573216.0	Area:	48434.0	   Population Density:	53.13
+[Minnesota]	Population: 	4375099.0	Area:	86943.0	   Population Density:	50.32
+[Iowa]	Population: 	2776755.0	Area:	56276.0	   Population Density:	49.34
+[Oklahoma]	Population: 	3145585.0	Area:	69903.0	   Population Density:	45.0
+[Arkansas]	Population: 	2350725.0	Area:	53182.0	   Population Density:	44.2
+[Maine]	Population: 	1227928.0	Area:	35387.0	   Population Density:	34.7
+[Arizona]	Population: 	3665228.0	Area:	114006.0	   Population Density:	32.15
+[Colorado]	Population: 	3294394.0	Area:	104100.0	   Population Density:	31.65
+[Kansas]	Population: 	2477574.0	Area:	82282.0	   Population Density:	30.11
+[Oregon]	Population: 	2842321.0	Area:	98386.0	   Population Density:	28.89
+[Nebraska]	Population: 	1578385.0	Area:	77358.0	   Population Density:	20.4
+[Utah]	Population: 	1722850.0	Area:	84904.0	   Population Density:	20.29
+[New Mexico]	Population: 	1515069.0	Area:	121598.0	   Population Density:	12.46
+[Idaho]	Population: 	1006749.0	Area:	83574.0	   Population Density:	12.05
+[Nevada]	Population: 	1201833.0	Area:	110567.0	   Population Density:	10.87
+[North Dakota]	Population: 	638800.0	Area:	70704.0	   Population Density:	9.03
+[South Dakota]	Population: 	696004.0	Area:	77121.0	   Population Density:	9.02
+[Montana]	Population: 	799065.0	Area:	147046.0	   Population Density:	5.43
+[Wyoming]	Population: 	453588.0	Area:	97818.0	   Population Density:	4.64
+[Alaska]	Population: 	550043.0	Area:	656424.0	   Population Density:	0.84

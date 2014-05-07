@@ -1,0 +1,5 @@
+Readability: 136
+Educational Level: 5th Grade
+words: 45085.0
+syllables: 29067.0
+sentences: 2968.0

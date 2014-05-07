@@ -1,0 +1,9 @@
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\obj\Debug\Quilt.fsprojResolveAssemblyReference.cache
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\Quilt.exe.config
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\Quilt.XML
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\Quilt.exe
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\Quilt.pdb
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\FSharp.Core.dll
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Debug\FSharp.Core.xml
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\obj\Debug\Quilt.exe
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\obj\Debug\Quilt.pdb

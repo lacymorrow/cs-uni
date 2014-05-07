@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=lemonAmt\ waterAmt\ sugarAmt\ glassAmt\ priceAmt
+comment0.target=LemonadeStand(int,\ int,\ int,\ int,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ LemonadeStand\n\n
+comment1.target=int\ makeLemonade()
+comment2.target=boolean\ checkIngredients()
+comment3.params=amount
+comment3.target=int\ sellLemonade(int)
+comment4.target=void\ displayInventory()
+comment5.target=void\ displayMoney()
+numComments=6

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(String[])
+comment1.target=Canvas\ getCanvas()
+comment1.text=\nProvides\ access\ to\ the\ singleton\ canvas\n\n@return\ canvas\ -\ the\ single\ Canvas\ object\n\n
+comment2.target=Canvas()
+comment3.params=t
+comment3.target=void\ setTitle(String)
+comment3.text=\nsets\ the\ title\ of\ the\ JFrame\n\n
+comment4.params=refObject\ color\ shape
+comment4.target=void\ draw(Object,\ String,\ Shape)
+comment4.text=\ncauses\ a\ shape\ to\ be\ redrawn\ on\ the\ panel.\nSince\ the\ shape's\ state\ may\ have\ changed,\nit\ is\ removed\ from\ the\ list,\ then\ re-added\ to\ \nthe\ list.\ \n\n
+comment5.params=refObject
+comment5.target=void\ erase(Object)
+comment6.target=void\ clear()
+comment6.text=\nStatic\ method\ for\ clearing\ the\ canvas\n\n
+comment7.target=void\ eraseAll()
+comment7.text=\nErases\ canvas,\ removing\ all\ objects\n\n
+comment8.params=color
+comment8.target=Color\ getColor(String)
+comment8.text=\nConverts\ a\ String\ to\ a\ color.\ Standard\ colors\nare\ checked\ first,\ it\ checks\ for\ a\ color\ string\nspecified\ as\ a\ 24-bit\ hex\ or\ octal\ number.\n\n@param\ color\n@return\ Color\ object\ corresponding\ to\ input\ String\n\n\n
+numComments=9

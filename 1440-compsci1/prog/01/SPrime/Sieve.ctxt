@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=maxHole
+comment0.target=Sieve(int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Sieve\n\n
+comment1.target=void\ plugHoles()
+comment2.params=p
+comment2.target=void\ plugMultiples(int)
+comment3.params=horizontal
+comment3.target=void\ filterNumbers(boolean)
+comment4.target=int\ lastHoleToPlug()
+comment5.target=void\ reset()
+numComments=6

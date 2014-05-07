@@ -1,0 +1,119 @@
+#include <stdio.h>
+#include "bool.h"
+#include "tools.h"
+
+/* 
+   Replace the return 0 with the code to perform the required function.
+   Do not change the function prototypes.
+   Be sure to check for errors in input. 
+   Document EACH function with a function header (description, parameters,
+   return).
+*/
+
+unsigned int getBits(int low, int high, unsigned int source)
+{
+  //check for valid range of input
+  if(low>=0 && high < 32){
+
+    //create mask  and shift
+    int m = 0x1<<31;
+    m = m >> (31-(high-low+1));
+
+    //shift source to important bits
+    source = source>>low;
+    return source&~m;
+  } else {
+    //invalid input
+    return 0;
+  }
+} 
+
+unsigned int setBits(int low, int high, unsigned int source)
+{
+  //check valid input
+  if (low<0 || high >31 || low>high){ return source; }
+
+  //get range to set
+  int r = high-low+1;
+
+  //initialize mask
+  int m = 0;
+
+  //count var
+  int i;
+
+  //for number of times in range
+  for(i=0;i<r;i++){
+    //shift mask over 1 bit
+    m=m<<1;
+    //add 1 (make lowest bit 1)
+    m++;
+  }
+  //shift to specific position
+  m=m<<low; 
+  return source|m;
+}
+
+unsigned int clearBits(int low, int high, unsigned int source)
+{
+  //check valid input
+  if (low<0 || high >31 || low>high){ return source; }   
+  
+  //get range to set
+  int r = high-low+1;
+
+  //initialize mask
+  int m = 0;
+
+  //count var
+  int i;
+
+  //for number of times in range
+  for(i=0;i<r;i++){
+    //shift mask over 1 bit
+    m=m<<1;
+    //add 1 (make lowest bit 1)
+    m++;
+  }
+  m=m<<low;
+ return source;
+}
+
+unsigned int assignOneBit(int bitNumber, int bitValue, unsigned int source)
+{
+    return 0;
+}
+
+unsigned char getByteNumber(int byteNo, unsigned int source)
+{
+    return 0;
+}
+
+unsigned int putByteNumber(int byteNo, unsigned char byteValue, 
+                           unsigned int source)
+{
+    return 0;
+}
+
+
+unsigned int buildWord(unsigned char byte0, unsigned char byte1, 
+                       unsigned char byte2, unsigned char byte3)
+{
+    return 0;
+}
+
+bool isNegative(unsigned int source)
+{
+    return 0;
+}
+
+void expandBits(unsigned int source, char bits[36])
+{
+    return;
+}
+
+void clearBuffer(char * buff, int size)
+{
+    return;
+}
+

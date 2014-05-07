@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=initialPrinciple\ yearlyInterestRate\ term
+comment0.target=Loan(double,\ double,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Loan\n\n
+comment1.target=void\ calcMonthlyPayment()
+comment2.target=double\ getInitialPrinciple()
+comment2.text=\ngetInitialPrinciple\n\n@return\ \ \ \ \ initialPrinciple\ \n\n
+comment3.target=double\ getCurrentBalance()
+comment3.text=\ngetCurrentBalance\n\n@return\ \ \ \ \ currentBalance\ \n\n
+comment4.target=double\ getMonthlyInterestRate()
+comment4.text=\ngetMonthlyInterestRate\n\n@return\ \ \ \ \ monthlyInterestRate\ \n\n
+comment5.target=int\ getTerm()
+comment5.text=\ngetTerm\n\n@return\ \ \ \ \ term\n\n
+comment6.target=int\ getPaymentsMade()
+comment6.text=\ngetPaymentsMade\n\n@return\ \ \ \ \ paymentsMade\n\n
+numComments=7

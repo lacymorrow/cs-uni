@@ -1,0 +1,14 @@
+CREATE TABLE employee ( 
+  fname varchar(20) NOT NULL, 
+  minit char NOT NULL, 
+  lname varchar(20) NOT NULL, 
+  ssn varchar(9) NOT NULL, 
+  bdate DATE NOT NULL, 
+  address varchar(50) NOT NULL, 
+  sex char(1) NOT NULL, 
+  salary double(7,2) NOT NULL, 
+  superssn varchar(9), 
+  dno varchar(2), 
+ CONSTRAINT employee_ssn_pk PRIMARY KEY (ssn), 
+ CONSTRAINT employee_superssn_fk FOREIGN KEY (superssn) REFERENCES employee(ssn) 
+);

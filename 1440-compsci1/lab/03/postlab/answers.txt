@@ -1,0 +1,8 @@
+a. no meter bar is visible, however the value is correctly reflected in the label text
+
+b. there are no error catches, so the algorithm is executed properly, but the bar drawn is outside the specified max width
+
+c. same as above, the bar is drawn outside the specified max width
+
+d. there is no visible meter, one may specify a larger maxMeterWidth to enlarge quantity bar
+

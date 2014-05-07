@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PerformanceScore()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ PerformanceScore\n\n
+comment1.params=scoreType\ score\ judgeName
+comment1.target=void\ addScore(char,\ double,\ String)
+comment2.target=String\ getScores()
+comment3.params=list
+comment3.target=double\ maxRating(ArrayList<Score>)
+comment4.params=list
+comment4.target=double\ minRating(ArrayList<Score>)
+comment5.target=double\ technicalMeritRating()
+comment6.target=double\ artisticMeritRating()
+comment7.target=void\ printScores()
+numComments=8

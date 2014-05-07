@@ -1,0 +1,29 @@
+1. In browsing various websites you have all encountered visual representations of quantities such as the number of people visiting a website, or a stock price, or various kinds of statistics. List three ways (there are many) that quantities may be represented to a computer user. (Write answers in a file called answers.txt -- see number 3. below).
+
+a. as an integer
+b. in graphical representation (6 cigarette images = 600,000 smoking deaths)
+c. in a chart or graph
+
+
+
+2. Let's say we want to represent a quantity by the size of a shape on the display. A computer display is made up of a number of "pixels" (picture elements). In a typical computer display there are 768 rows of pixels with 1024 pixels in each row (or 1024 columns by 768 rows). Let's say you have a window (part of the entire display, like the one in which you are viewing this page) that is 500 by 500 pixels. You wish to represent a quantity between 0 and 1000 using the size of a rectangle (for example the rectangle's height, as with a bar graph). You decide to create a "Bar" class that represents a single bar of a bar-chart
+
+
+a.  What attributes (fields) must your class have in order represent the quantity?
+The bar class must create a field which stores the represented value. 
+
+
+b.  How will you convert a quantity in the range of 0-1000 into a number of pixels in height?
+[quantity] * ( [window height] / [max val 1000] ) = [bar height]
+
+
+c.  What methods would be useful for you to provide in your "Bar" class.
+a "changeSize(quantity)" method to set the height of the bar
+
+
+d. A useful field in your "Bar" class might be a field to represent the "conversion factor" between units of the quantity and pixels on the screen. For example, the number of pixels per unit of the quantity. If you want to represent a quantity that has a maximum of 600 using a bar whose maximum height is 150 pixels what is the value of this "pixels per unit" conversion factor? .25 pixels to one unit.
+[window height] / [max val 600]
+
+
+e. Write an assignment statement  that computes the height of the bar in pixels (call it 'heightPixels') in terms of the conversion factor (call it 'pixelsPerUnit') and the value of the quantity (call it 'quantity').
+[quantity] * [pixelsPerUnit] = [heightPixels]

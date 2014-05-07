@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Interpreter()
+comment0.text=\nConstruct\ a\ Responder\n\n
+comment1.params=words
+comment1.target=String\ interpret(String[])
+comment1.text=\nGenerate\ a\ response\ from\ a\ given\ set\ of\ input\ words.\n\n@param\ words\ \ A\ set\ of\ words\ entered\ by\ the\ user\n@return\ \ \ \ \ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\n\n
+comment2.target=void\ fillMessageMap()
+comment2.text=\nEnter\ all\ the\ known\ keywords\ and\ their\ associated\ responses\ninto\ our\ response\ map.\n\n
+numComments=3

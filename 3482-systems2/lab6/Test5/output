@@ -1,0 +1,36 @@
+handleObjectFile main.o 
+nm main.o
+Defined Symbol Table
+-----------------------
+Undefined Symbol Table
+-----------------------
+foo                              U
+Defined Symbol Table
+-----------------------
+k                                d
+Undefined Symbol Table
+-----------------------
+foo                              U
+Defined Symbol Table
+-----------------------
+k                                d
+main                             T
+Undefined Symbol Table
+-----------------------
+foo                              U
+handleObjectFile foo.o 
+nm foo.o
+Defined Symbol Table
+-----------------------
+k                                d
+main                             T
+foo                              T
+Undefined Symbol Table
+-----------------------
+Defined Symbol Table
+-----------------------
+k                                d
+main                             T
+foo                              T
+Undefined Symbol Table
+-----------------------

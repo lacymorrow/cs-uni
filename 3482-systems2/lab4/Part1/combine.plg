@@ -1,0 +1,10 @@
+#!/usr/bin/gnuplot
+set ylabel "Time (msecs)"
+set xlabel "Size (in 50000s of elements)"
+set terminal jpeg font "/usr/share/fonts/liberation/LiberationSans-Regular.ttf"
+set output "combine.jpg"
+set style line 1 lc rgb "#ff0000" lt 1 lw 2 pt 7 ps 1.5
+set style line 2 lc rgb "#00ff00" lt 1 lw 2 pt 7 ps 1.5
+set style line 3 lc rgb "#0000ff" lt 1 lw 2 pt 7 ps 1.5
+set style line 4 lc rgb "#ff36a0" lt 1 lw 2 pt 7 ps 1.5
+plot "COMBINE1.data" with line ls 1, "COMBINE2.data" with line ls 2, "COMBINE3.data" with line ls 3, "COMBINE4.data" with line ls 4

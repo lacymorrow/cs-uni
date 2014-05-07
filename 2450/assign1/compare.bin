@@ -1,0 +1,25 @@
+;  
+;  Programmer: Lacy Morrow
+;  Userid: tlm
+;  Purpose: This program compares two values to see if they are greater, less than, or equal to one another
+;  Register Use:
+;                R0 - value 1
+;                R1 - value 2
+;                R2 - result: 1,0,-1 
+;        
+0011 0000 0000  0000	; load program in x3000
+0010 000 0 0000 1011    ; LD R0, Mem[x300C]
+0010 001 0 0000 1011    ; LD R1, Mem[x300D]
+1001 001 001  111111	; NOT R1
+0001 000 000 1 00001	; ADD R0, R0, 1
+0001 000 000 000 001	; ADD R0, R0, R1
+0000 100   000000010	; BRn x3008            (if R0 < R1)
+0000 010   000000100	; BRz x300B            (if R0 = R1)
+0000 001   000000010	; BRp x300A            (if R0 > R1)
+0001 010 010 1 11111	; ADD R2, R2, -1
+0000 111   000000001	; BRnzp x300B
+0001 010 010 1 00001	; ADD R2, R2, 1
+1111 0000 0010  0101	; HALT
+; data
+0000 0000 0000  0001	; R0 x300C
+0000 0000 0000  0011	; R1 x300D

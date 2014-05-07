@@ -1,0 +1,19 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	START             3000
+//	ILOOP             3004
+//	CONT              300C
+//	DISP              3013
+//	CHECK             3018
+//	CLOOP             301C
+//	BAD               3029
+//	GOOD              302C
+//	END               302E
+//	PROMPT            302F
+//	GOODSTR           3041
+//	BADSTR            3053
+//	NL                3069
+//	TXT               306A
+

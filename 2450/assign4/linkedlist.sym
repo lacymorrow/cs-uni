@@ -1,0 +1,28 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	MAIN              3000
+//	STRNG             300B
+//	NEWLN             3037
+//	SUMLIST           3039
+//	SLOOP             303A
+//	NODE8             3040
+//	NODE0             3043
+//	NODE4             3046
+//	NODE2             3049
+//	NODE1             304C
+//	NODE9             304E
+//	NODE3             3050
+//	NODE5             3053
+//	NODE6             3056
+//	NODE7             3059
+//	NUMTOSTR          305C
+//	TOP               305E
+//	NEXT              306A
+//	GOOD              306F
+//	DONE              3074
+//	RESULT            3078
+//	DIVISORS          307E
+//	THIRTY            3084
+

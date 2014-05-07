@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=competitor
+comment0.target=Performance(Competitor)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Performance\n\n
+comment1.target=Competitor\ getCompetitor()
+comment2.target=void\ listScores()
+comment3.params=scoreType\ score\ judgeName
+comment3.target=void\ addScore(char,\ double,\ String)
+comment4.target=double\ performanceRating()
+numComments=5

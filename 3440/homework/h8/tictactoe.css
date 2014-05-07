@@ -1,0 +1,16 @@
+*{
+	font-family: Helvetica, Trebuchet, "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+table#board {
+	border: 2px solid black;
+	border-collapse:collapse;
+	margin: 1em auto;
+}
+td.cell {
+	border: 1px solid black;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 4em;
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=competitor\ country
+comment0.target=Competitor(String,\ String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Competitor\n\n
+comment1.target=String\ getCompetitorName()
+comment2.target=String\ getCountry()
+comment3.params=competitor
+comment3.target=void\ setCompetitorName(String)
+comment4.params=countryName
+comment4.target=void\ setCountry(String)
+numComments=5

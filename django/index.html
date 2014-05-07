@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<title>Zap Fitness</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" />
+<script src="jquery.js"></script>
+<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+</script>
+</head>
+<body>
+<div id="hwrapper">
+	<div id="hheader">
+		<ul id="hnav">
+			  <li><a href="">Log out lacymorrow</a></li>
+			  <li><a href="dashboard.html">Dashboard</a></li>
+		</ul>
+		<h1 id="hlogo">Zap Fitness</h1>
+	</header>
+	<div id="main">
+		<div id="banner" class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="nivo-slider/demo/images/toystory.jpg" data-thumb="nivo-slider/demo/images/toystory.jpg" alt="" title="Welcome to Zap Fitness" />
+                <img src="nivo-slider/demo/images/up.jpg" data-thumb="nivo-slider/demo/images/up.jpg" alt="" />
+                <img src="nivo-slider/demo/images/walle.jpg" data-thumb="nivo-slider/demo/images/walle.jpg" alt="" />
+                <img src="nivo-slider/demo/images/nemo.jpg" data-thumb="nivo-slider/demo/images/nemo.jpg" alt="" />
+            </div>
+		</div>
+		<div id="content">
+			<h2>Welcome to Zap Fitness</h2>
+			<p>{{ content.content }}</p>
+		</div>
+		<div id="sidebar" class="float-right container">
+			<h3>Meet Our Coaches</h3>
+			<ul>
+					<li>
+						<img src="http://placehold.it/50" alt="thumbnail" class="float-left">
+						<h4>Steve Woz</h4>
+						<p>The Woz man. Give it all 110%!</p>
+					</li>
+					<li>
+						<img src="http://placehold.it/50" alt="thumbnail" class="float-left">
+						<h4>Steve Woz</h4>
+						<p>The Woz man. Give it all 110%!</p>
+					</li>
+			</ul>
+		</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+	<footer>
+		<small>&copy; 2013 Zap Fitness</small>
+	</footer>
+</div>
+</body>
+</html>

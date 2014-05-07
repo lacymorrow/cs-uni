@@ -1,0 +1,54 @@
+% family.pl
+
+% gender predicates
+male(douglas).
+male(gregory).
+male(james).
+male(george).
+male(bill).
+male(jim).
+male(william).
+male(jose).
+male(jason).
+male(cameron).
+female(rita).
+female(rosa).
+female(janet).
+female(mary).
+female(maria).
+female(juanita).
+female(brittany).
+female(linda).
+female(erica).
+
+
+% parent predicates parent(Child,Parent)
+parent(rosa,douglas).
+parent(gregory,douglas).
+parent(rosa,rita).
+parent(gregory,rita).
+parent(janet,james).
+parent(janet,rosa).
+parent(bill,george).
+parent(mary,george).
+parent(jim,george).
+parent(bill,janet).
+parent(mary,janet).
+parent(jim,janet).
+parent(maria,james).
+parent(maria,rosa).
+parent(jose,william).
+parent(jose,maria).
+parent(juanita,william).
+parent(juanita,maria).
+parent(jason,erica).
+parent(jason,gregory).
+parent(cameron,jason).
+parent(cameron,brittany).
+parent(linda,jason).
+parent(linda,brittany).
+
+% inferred relationships
+% Child C has mother M if it can be shown that
+% M is the parent of C and M is a female
+mother(C,M) :- parent(C,M),female(M).

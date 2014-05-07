@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TestPatterns1()
+comment0.text=\nWhen\ invoked,\ this\ constructor\ will\ invoke\ the\ methods\ you\ design\ for\ \nLab07\ Activity\ 1.\n\n\n
+comment1.target=void\ addSquaresToList()
+comment1.text=\nUses\ a\ while-loop\ to\ create\ and\ add\ 8\ Square\ objects\ to\ the\nsqList.\ Use\ your\ methods\ from\ the\ TestPatterns0\ class\ as\ a\ \nstarting\ point\ for\ building\ this\ one.\ Create\ Square\ objects\nthat\ form\ a\ row,\ starting\ at\ (0,0),\ each\ one\ 50x50\ pixels\ and\nno\ space\ between\ them\ (spacing\ is\ 50\ pixels),\ color\ is\ red.\n\n
+comment2.target=void\ changeSquareSize()
+comment2.text=\nChanges\ the\ size\ of\ all\ the\ squares\ in\ the\ list\ to\ 48\ pixels\ on\ a\ side.\nUses\ a\ for-each\ loop\ to\ access\ the\ Squares\ in\ the\ list\ one\ at\ \na\ time\ and\ uses\ the\ setSize\ method\ to\ change\ the\ size\ of\ each\ one.\n\n
+comment3.target=void\ changeEvenToBlack()
+comment3.text=\nChanges\ the\ color\ of\ the\ even\ numbered\ squares\ in\ the\ list\ to\ black.\nUse\ a\ for-loop\ and\ the\ 'get'\ method\ of\ the\ ArrayList\ class\ to\ access\nelements\ of\ the\ list.\ Use\ the\ size()\ method\ in\ the\ loop\ condition\ to\ncontrol\ the\ limit\ of\ the\ index.\ One\ way\ to\ test\ for\ an\ even\ index\ is\ \nto\ see\ of\ the\ result\ of\ a\ division\ by\ 2\ produces\ a\ zero\ remainder.\ \nThe\ modulus\ operator\ does\ this\:\ for\ example\ \ (i\ %\ 2\ \=\=\ 0)\ is\ true\nif\ 'i'\ is\ even,\ false\ otherwise.\ \nAnother\ way\ to\ select\ squares\ is\ to\ increment\ the\ index\ by\ 2\ instead\ of\ 1.\n\n
+comment4.params=waitAmount
+comment4.target=void\ delay(long)
+comment4.text=\ndelays\ a\ specified\ number\ of\ milliseconds.\ Not\ the\ best\ way\ to\ write\ a\ delay\nfor\ performance,\ but\ serves\ our\ purpose\ for\ now...\n\n
+numComments=5

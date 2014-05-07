@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Pair()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Pair\n\n
+comment1.params=firstIndex\ secondIndex
+comment1.target=Pair(int,\ int)
+comment2.params=i
+comment2.target=void\ setFirstIndex(int)
+comment3.params=i
+comment3.target=void\ setSecondIndex(int)
+comment4.target=int\ getFirstIndex()
+comment5.target=int\ getSecondIndex()
+numComments=6

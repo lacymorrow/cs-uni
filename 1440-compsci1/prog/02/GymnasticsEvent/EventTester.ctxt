@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=nameOfEvent\ numPerformances
+comment0.target=EventTester(String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ EventTester\n@param\ nameOfEvent\ \:\ the\ event\ name\ (e.g.\ "Pole\ Vault")\n@param\ numPerformances\ \:\ the\ number\ of\ performances\ in\ this\ event\n\n\nThis\ uses\ your\ constructor,\ your\ addScore(),\ getScores(),\ntechnicalMeritRating(),\ and\ artisticMeritRating()\nmethods.\n\n
+numComments=1

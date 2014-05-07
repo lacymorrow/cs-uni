@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Command\ getCommand()
+comment1.params=aString
+comment1.target=boolean\ isCommand(String)
+comment1.text=\nCheck\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ \nReturn\ true\ if\ it\ is,\ false\ if\ it\ isn't.\n\n
+comment2.target=void\ showCommands()
+comment2.text=Print\ all\ valid\ commands\ to\ System.out.\n\n
+comment3.params=firstWord\ secondWord
+comment3.target=Command(String,\ String)
+comment3.text=\nCreate\ a\ command\ object.\ First\ and\ second\ word\ must\ be\ supplied,\ but\neither\ one\ (or\ both)\ can\ be\ null.\ The\ command\ word\ should\ be\ null\ to\nindicate\ that\ this\ was\ a\ command\ that\ is\ not\ recognised\ by\ this\ game.\n\n
+comment4.target=boolean\ isUnknown()
+comment4.text=\nReturn\ true\ if\ this\ command\ was\ not\ understood.\n\n
+comment5.target=boolean\ hasSecondWord()
+comment5.text=\nReturn\ true\ if\ the\ command\ has\ a\ second\ word.\n\n
+comment6.params=player\ castle
+comment6.target=boolean\ perform(Player,\ Castle)
+comment6.text=\nGiven\ a\ command,\ process\ (that\ is\:\ execute)\ the\ command.\nIf\ this\ command\ ends\ the\ game,\ true\ is\ returned,\ otherwise\ false\ is\nreturned.\n\n
+comment7.params=player\ castle
+comment7.target=void\ printHelp(Player,\ Castle)
+comment7.text=\nPrint\ out\ some\ help\ information.\nHere\ we\ print\ some\ stupid,\ cryptic\ message\ and\ a\ list\ of\ the\ \ncommand\ words.\n\n
+comment8.params=player\ castle
+comment8.target=void\ quaffBeverage(Player,\ Castle)
+comment9.params=player\ castle
+comment9.target=void\ goRoom(Player,\ Castle)
+comment9.text=\nTry\ to\ go\ to\ one\ direction.\ If\ there\ is\ an\ exit,\ enter\ the\ new\nroom,\ otherwise\ print\ an\ error\ message.\n\n
+numComments=10

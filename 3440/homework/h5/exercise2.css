@@ -1,0 +1,1 @@
+*{	font-family: arial, verdana, sans-serif;}div{	width: 400px;	position: absolute;	border: 4px groove #888;	padding: 2em 1em;}.page1{	background-color: #ddd;	z-index:1;}.page2{	background-color: white;	top: 225px;	left: 115px;	z-index: 3;}.page3{	background-color: #ddd;	top: 380px;	left: 230px;	z-index: 2;}

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=lastHole\ horizontal
+comment0.target=PrimeList(int,\ boolean)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ PrimeList\n\n
+comment1.target=void\ displayPrimeList()
+comment2.params=p
+comment2.target=void\ minusMultiples(int)
+numComments=3

@@ -1,0 +1,33 @@
+*,body{
+			  text-align:center;
+			  font-family:Helvetica, arial, sans-serif;
+			}
+			#wrapper{
+				width:960px;
+				margin:0 auto;
+				background-color: #DDD;
+				border: 1px solid #AAA;
+			}
+			hr,div.bump{
+				margin-top: 100px;
+				margin-bottom: 100px;
+			}
+			ul{
+				list-style: square;
+				color:green;
+			}
+			h1{
+				background-color: black;
+				color: white;
+				border: 3px solid purple;
+			}
+			h2{
+				text-decoration: underline;
+			}
+			h3{
+				color: orange;
+			}
+			
+			a {
+				color: red;
+			}

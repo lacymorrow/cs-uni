@@ -1,0 +1,26 @@
+;  
+;  Programmer: Lacy Morrow
+;  Userid: tlm
+;  Purpose: This program counts the amount of elements in a null-terminated list
+;  Register Use:
+;	R0 - result count
+;	R1 - element address
+;	R2 - temp value
+;        
+0011 0000 0000  0000	; load program in x3000
+1110 001 00000  0101	; LEA R1 [x3007-1]
+0001 000 000 1 00001    ; ADD R0, R0, 1 - increment count
+0001 001 001 1 00001    ; ADD R1, R1, 1 - increment list
+0110 010 001  000000	; LDR R2, R1, 0
+0000 101 11111  1100	; BRnp x3001
+0001 000 000 1 11111	; ADD R0, R0, -1 - fix count
+1111 0000 0010  0101	; HALT
+; data
+0000 0000 0000  0001	; 1
+0000 0000 0000  0101	; 2
+0000 0000 0000  1000	; 3
+0000 0000 0000  1000	; 4
+0000 0000 0000  1000	; 5
+0000 0000 0000  1010    ; 6
+0000 0000 0000  1100	; 7
+0000 0000 0000  0000	; NULL, end of list

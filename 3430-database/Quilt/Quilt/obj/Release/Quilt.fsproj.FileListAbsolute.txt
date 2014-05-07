@@ -1,0 +1,8 @@
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\Quilt.exe.config
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\Quilt.XML
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\Quilt.exe
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\Quilt.pdb
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\FSharp.Core.dll
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\bin\Release\FSharp.Core.xml
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\obj\Release\Quilt.exe
+c:\users\lacy\documents\visual studio 2012\Projects\Quilt\Quilt\obj\Release\Quilt.pdb

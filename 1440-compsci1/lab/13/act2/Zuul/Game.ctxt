@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Game()
+comment0.text=\nCreate\ the\ game\ and\ initialise\ its\ internal\ map.\n\n
+comment1.params=castle
+comment1.target=void\ setCastle(Castle)
+comment2.params=player
+comment2.target=void\ setPlayer(Player)
+comment3.target=void\ play()
+comment3.text=\nMain\ play\ routine.\ \ Loops\ until\ end\ of\ play.\n\n
+comment4.target=void\ printWelcome()
+comment4.text=\nPrint\ out\ the\ opening\ message\ for\ the\ player.\n\n
+numComments=5

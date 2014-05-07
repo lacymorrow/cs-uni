@@ -1,0 +1,2 @@
+Not all browsers will tolerate regular expressions in split(), it may be
+safer to replace all non-word characters with a space then split on that:

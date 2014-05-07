@@ -1,0 +1,18 @@
+[Breakpoint 0]
+Enabled=true
+File=csim.c
+Line=121
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=-v -s 4 -E 1 -b 4 -t traces/yi.trace\n
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0

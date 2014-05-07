@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Training Log</title>
+	<script src="js.js"></script>
+</head>
+<body>
+	<h1>Training Log</h1>
+	<form action="" method="get" id="data">
+		<label>Date (12/31/2099): <input type="text" id="date" onchange="create();"></label><br>
+		<label>Run Distance (miles):  <input type="number" id="distance" onchange="create();"></label><br>
+		<label>Run Time (minutes): <input type="number" id="time" onchange="create();"></label><br>
+		<label>Effort (0 &ndash; 10): <input type="number" id="effort" onchange="create();"></label><br>
+		<label>Max Heart Rate (bpm): <input type="number" id="mhr" onchange="create();"></label><br>
+		<label>Resting Heart Rate (bpm): <input type="number" id="rhr" onchange="create();"></label><br>
+		<label>Weight (lbs): <input type="number" id="weight" onchange="create();"></label><br>
+		<label>Sleep (hours): <input type="number" id="sleep" onchange="create();"></label><br>
+		<label>Notes (string): <input type="text" id="notes" onchange="create();"></label><br>
+		<input type="button" value="Clear Form" onclick="formReset();">
+	</form>
+	
+	<table border="1" id="training">
+	</table>
+</body>
+</html>

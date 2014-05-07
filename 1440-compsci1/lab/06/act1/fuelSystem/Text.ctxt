@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=s\ colorString\ x\ y
+comment0.target=Text(String,\ String,\ int,\ int)
+comment0.text=\nconstruct\ a\ text\ string\ for\ the\ graphical\ display\n\n
+comment1.params=newString
+comment1.target=void\ changeString(String)
+comment1.text=\nchanges\ text\n\n
+comment2.target=void\ makeVisible()
+comment2.text=\nMake\ this\ text\ visible.\ If\ it\ was\ already\ visible,\ do\ nothing.\n\n
+comment3.target=void\ makeInvisible()
+comment3.text=\nMake\ this\ text\ invisible.\ If\ it\ was\ already\ invisible,\ do\ nothing.\n\n
+comment4.params=x\ y
+comment4.target=void\ changePosition(int,\ int)
+comment4.text=\nsets\ the\ position\ of\ the\ text.\n\n
+comment5.params=newColor
+comment5.target=void\ changeColor(String)
+comment6.target=void\ draw()
+comment6.text=\nDraw\ the\ text\ with\ current\ specifications\ on\ screen.\n\n
+comment7.target=void\ erase()
+numComments=8

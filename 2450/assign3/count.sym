@@ -1,0 +1,43 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	START             3000
+//	ILOOP             3004
+//	CONT              300C
+//	DISP              3015
+//	CHECK             301A
+//	NEXT              301F
+//	NEXTCHR           3020
+//	MATCH             3026
+//	NXTWORD           302C
+//	DONE              302F
+//	END               3032
+//	ASCII             3033
+//	NL                3034
+//	POINTER           3035
+//	PROMPT            304A
+//	TXT               305C
+//	TXT2              3071
+//	STRING1           308A
+//	STRING2           3090
+//	STRING3           3095
+//	STRING4           309C
+//	STRING5           30A1
+//	STRING6           30A7
+//	STRING7           30AC
+//	STRING8           30B3
+//	STRING9           30B9
+//	STRING10          30BD
+//	STRING11          30C1
+//	STRING12          30C7
+//	STRING13          30CB
+//	STRING14          30D0
+//	STRING15          30D4
+//	STRING16          30DB
+//	STRING17          30DF
+//	STRING18          30E4
+//	STRING19          30EB
+//	STRING20          30F5
+//	INPUT             30FB
+

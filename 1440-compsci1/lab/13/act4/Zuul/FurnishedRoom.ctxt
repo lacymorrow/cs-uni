@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=FurnishedRoom(String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ FurnishedRoom\n\n
+comment1.target=String\ getLongDescription()
+comment2.params=item
+comment2.target=void\ addItem(RoomItem)
+comment3.params=itemName
+comment3.target=RoomItem\ removeItem(String)
+comment4.target=String\ getItemString()
+numComments=5

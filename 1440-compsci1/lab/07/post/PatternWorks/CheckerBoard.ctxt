@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CheckerBoard()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ CheckerBoard\n\n
+comment1.params=rowNum
+comment1.target=void\ makeBoard(int)
+comment2.target=void\ reverseColors()
+comment3.params=blinkNum
+comment3.target=void\ blinkBoard(int)
+comment4.target=void\ fadeBoard()
+comment5.params=rowNum
+comment5.target=void\ growBoard(int)
+comment6.params=waitAmount
+comment6.target=void\ delay(long)
+numComments=7

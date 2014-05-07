@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Race Time Prediction</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Race Time Prediction</h1>
+<p>This application calculates recommended pace time for races, combining both the Riegel and Cameron formulas. Insert your most recent time to begin</p>
+<hr>
+<table border="1">
+    <tr>
+        <th>Distance</th>
+        <th>Time in Seconds<br>(Riegel Formula)</th>
+        <th>Time in Minutes</th>
+        <th>Time in Seconds<br>(Cameron Formula)</th>
+        <th>Time in Minutes</th>
+    </tr>
+    <tr>
+        <td>Mile</td>
+        <td><input type="text" id="t0" onchange="calc(0);" rel="1"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5K</td>
+        <td><input type="text" id="t1" onchange="calc(1);" rel="3.1"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10K</td>
+        <td><input type="text" id="t2" onchange="calc(2);" rel="6.2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Half&ndash;marathon</td>
+        <td><input type="text" id="t3" onchange="calc(3);" rel="13.1"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Marathon</td>
+        <td><input type="text" id="t4" onchange="calc(4);" rel="26.2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>

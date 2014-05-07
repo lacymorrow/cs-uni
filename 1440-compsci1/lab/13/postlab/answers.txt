@@ -1,0 +1,9 @@
+Lacy Morrow
+Postlab 13
+1. I added a PoisonPotion object which takes away a life if used. Also is the beginning of a more in-depth story as you are pushed through a trapdoor by the king.
+
+2. Using inheritance we are able to create more functions within the same game without changing the original game. You can still use the old version without any changes.
+
+3. I would add another room and another item "lockedDoor". When one unlocks the door the dragon would come out and "shoot fire", taking a life and giving the user the option to escape backwards or dodge forwards.
+
+4. I would change the pick up item command to "obtain" which would store a list of items in the player class. Invoking the "quaff" command would check if the user has an item before using it.

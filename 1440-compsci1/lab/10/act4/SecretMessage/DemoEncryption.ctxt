@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=text
+comment0.target=DemoEncryption(String)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ DemoEncryption\n\n
+comment1.params=a\ b\ clear
+comment1.target=String\ swap(char,\ char,\ String)
+comment2.params=pair\ swapStr
+comment2.target=String\ mutateOnePair(Pair,\ String)
+comment3.params=swapStr\ randList
+comment3.target=String\ mutate(String,\ RandomPairList)
+numComments=4

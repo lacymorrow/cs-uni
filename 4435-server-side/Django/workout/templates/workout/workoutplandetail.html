@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>{{ workoutplan }}</h2>{% endblock %}
+{% block content %}
+<table>
+<tr><td>Type</td><td><b>{{ workoutplan.type }}</b></td></tr>
+<tr><td>Surface</td><td><b>{{ workoutplan.surface }}</b></td></tr>
+<tr><td>Course Type</td><td><b>{{ workoutplan.course_type }}</b></td></tr>
+<tr><td>Date</td><td><b>{{ workoutplan.date }}</b></td></tr>
+<tr><td>Distance</td><td><b>{{ workoutplan.distance }}</b></td></tr>
+<tr><td>Time</td><td><b>{{ workoutplan.time }}</b></td></tr>
+<tr><td>Warmup Instructions</td><td><b>{{ workoutplan.warmup_instructions }}</b></td></tr>
+<tr><td>Core Workout Instructions</td><td><b>{{ workoutplan.core_workout_instructions }}</b></td></tr>
+<tr><td>Cooldown Instructions</td><td><b>{{ workoutplan.cooldown_instructions }}</b></td></tr>
+<tr><td>Post-Run Instructions</td><td><b>{{ workoutplan.post_run_instructions }}</b></td></tr>
+<tr><td>Target HR</td><td><b>{{ workoutplan.target_hr }}</b></td></tr>
+<tr><td>Target Difficulty</td><td><b>{{ workoutplan.target_difficulty }}</b></td></tr>
+<tr><td>Comments</td><td><b>{{ workoutplan.comments }}</b></td></tr>
+</table>
+{% endblock %}

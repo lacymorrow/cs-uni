@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>Weight List</h2>{% endblock %}
+{% block content %}
+<p><a href="{% url 'weightadd' %}">Add a Weight Entry</a></p>
+<table>
+<tr><td>Date</td><td>Weight</td><td>Comment</td></tr>
+{% for weight in weight_list %}
+    <tr>
+        <td>{{weight.date}}</td>
+        <td>{{weight.weight}}</td>
+        <td>{{weight.comment}}</td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>Workout Analysis (last 7 days)</h2>{% endblock %}
+{% block content %}
+<table>
+<tr>
+{% for w in workout_list %}
+    <td>Name: {{ w.name }}<br>
+    Date: {{ w.date_time|date:"SHORT_DATE_FORMAT" }}<br>
+    Type: {{ w.type }}<br>
+    Surface: {{ w.surface }}<br>
+    Course Type: {{ w.course_type }}<br>
+    Distance: {{ w.distance }}<br>
+    Time: {{ w.time }}<br>
+    Avg HR: {{ w.average_hr }}<br>
+    Max HR: {{ w.max_hr }}<br>
+    Difficulty: {{ w.difficulty }}</td>
+{% endfor %}
+</tr>
+</table>
+<h2>Running Workout Summary</h2>
+<p>Total Miles: {{ analysis.totalmiles }}<br>
+Total Time (in minutes): {{ analysis.totalrunningtime }}<br>
+Average Pace per mile: {{ analysis.averagepace }}<br>
+Longest Run: {{ analysis.longestrun }}</p>
+<h2>Summary of all Workouts</h2>
+<p>Running Workouts: {{ analysis.runningworkouts }}<br>
+Cross Training Workouts: {{ analysis.crosstrainingworkouts }}<br>
+Core/Strength Workouts: {{ analysis.coreworkouts }}<br>
+Total Workout time: {{ analysis.totalworkouttime }}</p>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>{{ workout }}</h2>{% endblock %}
+{% block content %}
+<table>
+<tr><td>Plan</td><td><b>{{ workout.workout_plan }}</b></td></tr>
+<tr><td>Type</td><td><b>{{ workout.type }}</b></td></tr>
+<tr><td>Date/Time</td><td><b>{{ workout.date_time }}</b></td></tr>
+<tr><td>Surface</td><td><b>{{ workout.surface }}</b></td></tr>
+<tr><td>Course Type</td><td><b>{{ workout.course_type }}</b></td></tr>
+<tr><td>Distance</td><td><b>{{ workout.distance }}</b></td></tr>
+<tr><td>Time</td><td><b>{{ workout.time }}</b></td></tr>
+<tr><td>Average HR</td><td><b>{{ workout.average_hr }}</b></td></tr>
+<tr><td>Max HR</td><td><b>{{ workout.max_hr }}</b></td></tr>
+<tr><td>Difficulty</td><td><b>{{ workout.difficulty }}</b></td></tr>
+<tr><td>Comments</td><td><b>{{ workout.comments }}</b></td></tr>
+</table>
+{% endblock %}

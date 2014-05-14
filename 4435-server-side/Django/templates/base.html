@@ -1,0 +1,36 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>{% block title %}Coaching Website{% endblock %}</title>
+</head>
+<body>
+<div id="wrap">
+    <div id="header"><img src="{% static "images/RRCA_Cert_Coach_logo2.png" %}" alt="Coaching Logo"/><h1>Coaching Website</h1></div>
+    <div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'workoutindex' %}">Workouts</a></li>
+            <li><a href="{% url 'workoutanalysis' %}">Workout Analysis</a></li>
+            <li><a href="{% url 'workoutplanindex' %}">Workout Plans</a></li>
+            <li><a href="{% url 'weightlist' %}">Weight Log</a></li>
+            <li><a href="{% url 'login' %}">Login</a></li>
+            <li><a href="{% url 'logout' %}">Log Out</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+    <div id="pagetitle">
+        {% block pagetitle %}<h2>Coaching Website Home</h2>{% endblock %}
+    </div>
+    <div id="content">
+        {% block content %}Welcome to the Coaching Webiste. Select an link to the left for access to Workouts, plans, and your weight log.
+        <br>
+        <br>
+        Step 7h bullet #2 is incomplete. Remove the '#!' symbols in workout/views.py to enable.
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>Add Weight Entry</h2>{% endblock %}
+{% block content %}
+<form action="{% url "weightadd" %}" method="POST">
+  {% csrf_token %}
+  <ul>
+    {{ form.as_ul }}
+  </ul>
+  <input id="save_weight" type="submit" value="Save" />
+</form>
+
+<a href="{% url "weightlist" %}">Back to Weight List</a>
+{% endblock %}

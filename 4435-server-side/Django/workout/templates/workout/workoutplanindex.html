@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}<h2>Workout Plans</h2>{% endblock %}
+{% block content %}
+{% if workout_plan_list %}
+    <ul>
+    {% for workout_plan in workout_plan_list %}
+        <li><a href="{% url 'workoutplandetail' workout_plan.id %}">{{ workout_plan.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No workout plans are available.</p>
+{% endif %}
+{% endblock %}

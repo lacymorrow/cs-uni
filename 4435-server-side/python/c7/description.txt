@@ -1,0 +1,3 @@
+Pickling: Takes in data and serializes it into a binary data file (with extension .p) for storage. Data can be read directly back into variables in the same format it was saved.
+
+Shelving: Pushes pickling one step further by assigning dictionary-like keys to each object of serialized data so that data objects may be loaded individually. Similar to JSON.

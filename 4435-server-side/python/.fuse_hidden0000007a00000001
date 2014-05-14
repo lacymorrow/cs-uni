@@ -1,0 +1,6 @@
+def main(*l):
+	if len(l)>0 then ln=l[0] else break
+	fn=if len(l)>1 then l[1] else ""
+	
+
+main()
